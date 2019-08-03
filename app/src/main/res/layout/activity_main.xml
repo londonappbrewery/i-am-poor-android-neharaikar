@@ -17,6 +17,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:text="@string/i_am_poor"
+        android:textColor="#020000"
         android:textSize="40sp"
         android:textStyle="bold" />
 
