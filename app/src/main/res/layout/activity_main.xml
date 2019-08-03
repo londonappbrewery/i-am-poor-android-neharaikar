@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#999696"
+    android:background="#600A0A0A"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -15,9 +15,11 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
         android:text="@string/i_am_poor"
-        android:textColor="#000000"
+        android:textColor="#1E1F1F"
+        android:layout_marginLeft="80dp"
         android:textSize="40sp"
         android:textStyle="bold" />
 
@@ -28,4 +30,16 @@
         android:layout_centerInParent="true"
         android:contentDescription="@string/todo"
         app:srcCompat="@drawable/coal" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/poor"
+        android:textColor="#020202"
+        android:layout_marginTop="56dp"
+        android:layout_marginLeft="170dp"
+        android:textSize="50sp"
+        android:textStyle="bold|italic"
+        android:visibility="visible" />
 </RelativeLayout>
